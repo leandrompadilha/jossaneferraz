@@ -8200,3 +8200,17 @@ section.case-study-next-project>div .desc i {
         padding: 40px
     }
 }
+
+.desc {
+    display: flex;
+    flex-direction: column; /* Garante que o texto fique empilhado corretamente */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+    width: 88%; /* Define uma largura menor para criar margens laterais maiores */
+    max-width: 800px; /* Define um limite máximo para evitar que fique muito largo */
+    margin: 20px auto; /* Centraliza horizontalmente e mantém espaçamento vertical */
+    padding: 20px; /* Adiciona espaçamento interno para melhorar a legibilidade */
+    text-align: justify;
+}
